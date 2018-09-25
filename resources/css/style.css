@@ -72,36 +72,34 @@ a {
   text-align: center;
 }
 
-.tea-month {
-  display: flex;
+#tea-month {
 
+  text-align: center;
+  margin:auto;
 }
-
-.header h2 {
+.header {
   text-align: center;
 }
-
-.header h4 {
-  text-align: center;
-}
-
 .image-content {
   display: flex;
-  width: 1000px;
+  flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 1000px;
+  text-align: center;
 
   }
-.image-content img {
-  display: inline-flex;
-  height: 200px;
-  width: 300px;
-  margin: 10px;
-  flex-direction: column;
+.tea-item {
+  width: 30%;
+  margin: 4px;
+   }
 
- }
+.tea-item img {
+width: 100%;
+}
 
-.image-content h4 {
+.tea-item h4 {
+  margin-top: 10px;
 }
 
 .second-image {
