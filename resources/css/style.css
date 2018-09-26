@@ -109,15 +109,20 @@ width: 100%;
 }
 
 .second-image h2 {
-text-align: center;
+  text-align: center;
+}
+.second-image .containers{
+    position: relative;
+    top: 55px;
 }
 .containers {
   display: flex;
-  margin: 15px 40px;
+  margin: 0 90px;
   flex-direction: row;
   opacity: 0.9;
   justify-content: space-around;
   text-align: center;
+
 
   }
 
@@ -127,6 +132,7 @@ text-align: center;
   background-color: black;
   flex-direction: column;
   width: 300px;
+  line-height: 1.6;
 
   }
 
