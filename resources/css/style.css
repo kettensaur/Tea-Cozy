@@ -56,7 +56,8 @@ a {
   }
 
 .mission {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background-color: black;
   height: auto;
   width: 1200px;
@@ -65,10 +66,13 @@ a {
 
 .mission h2 {
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
   }
 
 .mission h4 {
-  margin-top: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -103,27 +107,28 @@ width: 100%;
 
 .second-image {
   margin: auto;
-  height: 500px;
+  min-height: 500px;
   width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
 
 .second-image h2 {
   text-align: center;
+  line-height: 5em;
+  font-weight: bold;
+
 }
 .second-image .containers{
     position: relative;
-    top: 55px;
+    bottom: 70px;
 }
 .containers {
   display: flex;
   margin: 0 90px;
   flex-direction: row;
-  opacity: 0.9;
+  opacity: 1;
   justify-content: space-around;
   text-align: center;
-
-
   }
 
 
@@ -153,4 +158,5 @@ width: 100%;
   font-size: 18px;
   text-align: left;
   margin-left: 20px;
+  font-weight: bold;
 }
